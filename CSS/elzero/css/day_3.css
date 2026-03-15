@@ -1,0 +1,193 @@
+/* Global Rules */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+/* Responsive Containers */
+@media (min-width: 768px) { .container { max-width: 750px; } }
+@media (min-width: 992px) { .container { max-width: 970px; } }
+@media (min-width: 1200px) { .container { max-width: 1170px; } }
+
+/* Header Styling */
+.head {
+    background-color: #000;
+    padding: 10px 0;
+}
+
+.head .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.head .logo img {
+    height: 40px;
+}
+
+.head .word {
+    display: flex;
+    gap: 15px;
+}
+
+.head .word a {
+    color: blanchedalmond;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.head .word a:hover {
+    color: #0c7bfd;
+}
+
+@media (max-width: 767px) {
+    .head .container { justify-content: center; gap: 10px; }
+    .head .word { font-size: 14px; gap: 8px; }
+}
+
+/* Navigation Section */
+.section-nav {
+    padding: 20px 0;
+    background: #eee;
+}
+
+.section-nav .container {
+    direction: rtl;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.section-nav .container span {
+    color: #0c7bfd;
+}
+
+/* CSS Hero Section */
+.section-css {
+    background-color: #0c7bfd;
+    color: #fff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.section-css h1 {
+    font-size: 48px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.section-css p {
+    font-size: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.8;
+}
+
+/* Info Bar Section */
+.section-bar {
+    padding: 30px 0;
+}
+
+.section-bar .container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.section-bar .box, .section-bar .boxx {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-right: 5px solid #0c7bfd;
+    background: #fff;
+    direction: rtl;
+    border-radius: 4px;
+}
+
+.section-bar .boxx {
+    border-right-color: #000;
+}
+
+.section-bar p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* Assignments Grid Section */
+.section-box {
+    padding: 40px 0;
+}
+
+.section-box .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.section-box .box {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.section-box .box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.section-box .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 15px;
+}
+
+.section-box .header p {
+    font-weight: bold;
+    color: #333;
+}
+
+.section-box .header img {
+    width: 60px;
+    height: auto;
+}
+
+.section-box hr {
+    margin: 15px 0;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+
+.section-box .details {
+    padding: 10px 0;
+}
+
+.section-box .details h2 {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 5px;
+}
+
+.section-box .foter p {
+    color: #0c7bfd;
+    font-weight: bold;
+    text-align: center;
+}
