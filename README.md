@@ -1,39 +1,55 @@
-# دليل مهام تصميم الويب (Web Designer Tasks Navigator) - NTI Aswan
+# 🚀 Web Designer Tasks Navigator (NTI ASWAN)
 
-## 📝 عن المشروع
-هذا المشروع عبارة عن واجهة ويب مركزية (Navigator) تم تصميمها لتجميع وتنظيم وعرض كافة المهام والتطبيقات العملية (Tasks) التي تم تنفيذها خلال التدريب في مسار "تصميم الويب" في المعهد القومي للاتصالات (NTI) فرع أسوان.
+![Portfolio Banner](C:\Users\Bios\.gemini\antigravity\brain\530835fe-e166-4fea-8fdd-f474fa480ca7\web_design_portfolio_banner_1773613157335.png)
 
-## 🎯 الهدف من المشروع
-- **التنظيم والتوثيق:** توثيق وجمع كل المهام العملية في مكان واحد ليسهل الرجوع إليها في المستقبل كمرجع شخصي.
-- **سهولة الوصول والتصفح:** توفير صفحة رئيسية بتصميم عصري وجذاب تتيح الانتقال السريع بين جميع مشاريع الـ HTML والـ CSS المنجزة بضغطة زر.
-- **عرض الأعمال:** يمكن استخدامه كمعرض مصغر (Portfolio) لعرض مستوى التقدم والتطبيقات التي تم إنجازها خلال فترة الكورس.
+## 📝 About the Project | عن المشروع
+This repository is a centralized hub for all web design tasks completed during the **NTI Aswan** training program. It serves as a professional portfolio showcasing the evolution of front-end skills from basic HTML structures to complex, responsive CSS designs.
 
-## 🚀 ما الذي يحتويه المشروع؟
-المشروع مبني على صفحة رئيسية واحدة (`index.html`) مقسمة بشكل منظم إلى فروع حسب نوع المهام، وتضم:
-
-1. **قسم مهام HTML:** 
-   روابط للمهام التي تركز على بناء الهيكل الأساسي لصفحات الويب باستخدام عناصر HTML5.
-2. **قسم مهام CSS:** 
-   روابط لتطبيقات ومشاريع كاملة تركز على التصميم والشكل الجمالي، مثل:
-   - تصميم اللوحات التفاعلية (Dashboards).
-   - التصاميم المعتمدة على الأشكال والصور الرمزية (Avatars & Donuts).
-   - مشاريع تدريبية كاملة.
-
-## 🛠️ التقنيات المستخدمة
-- **HTML5:** لبناء هيكل الصفحة الرئيسية وبقية المهام.
-- **CSS3 (Vanilla CSS):** لكتابة التنسيقات الخاصة في الصفحات.
-- **Tailwind CSS:** تم استخدامه عبر الـ (CDN) في الصفحة الرئيسية لبناء واجهة متجاوبة (Responsive) وسريعة بأسلوب عصري وأكواد نظيفة.
-
-## 📂 كيفية التشغيل
-الاستخدام بسيط جداً ولا يتطلب أي إعدادات خاصة:
-1. قم بفتح مجلد المشروع.
-2. شغل ملف `index.html` الموجود في المسار الرئيسي في أي متصفح ويب (مثل Chrome أو Edge).
-3. تصفح المهام وانقر على أي مهمة لفتحها في علامة تبويب جديدة لمعاينة المشروع.
+هذا المشروع هو واجهة عرض شاملة لجميع المهام التي تم تنفيذها خلال تدريب **NTI Aswan**. يعرض المشروع تطور مهارات تطوير واجهات المستخدم، بدءاً من أساسيات HTML وصولاً إلى تصاميم CSS المتقدمة والمتجاوبة.
 
 ---
-*تم إعداد هذه الواجهة لتسهيل عملية التصفح والمراجعة الدورية للمهارات المكتسبة خلال التدريب.*
 
-## 👨‍💻 About Me | عني
+## 🏗️ Project Categories | أقسام المجموعات
+
+### 🌐 HTML Tasks (Foundations)
+Focused on building semantic, accessible, and well-structured web pages.
+1. **Task 1:** Introduction to basic structural elements.
+2. **Task 2:** Advanced forms and media integration.
+3. **Task 3:** Tables and list management.
+
+### 🎨 CSS Tasks (Styling & Layout)
+Advanced styling projects focusing on UI/UX, animations, and responsive architecture.
+- **📂 Elzero:** Educational assignment organizer inspired by Elzero Web School.
+- **🎬 AVATAR:** Cinematic movie showcase with an immersive design.
+- **📊 Admin Dashboard:** Professional management interface with interactive sidebars.
+- **🍩 Donuts Page:** Vibrant e-commerce concept for a donut storefront.
+- **👋 Hello There:** Modern landing page with a focus on greetings and interaction.
+- **🌊 Kasper:** Premium, one-page portfolio design focusing on aesthetics.
+
+---
+
+## 🛠️ Technical Stack | التقنيات المستخدمة
+- **HTML5:** Semantic structure and accessibility.
+- **CSS3:** Flexbox, CSS Grid, Custom Properties, and Animations.
+- **Tailwind CSS:** Used for the main navigator's rapid and responsive UI.
+- **Responsive Design:** Ensuring all projects look great on mobile, tablet, and desktop.
+
+---
+
+## 📂 How to Navigate | كيفية التصفح
+1. Open the root `index.html` to access the **Task Navigator**.
+2. Click on any task button to view the live project.
+3. Each major CSS project folder contains its own `README.md` with specific details.
+
+1. قم بفتح ملف `index.html` الرئيسي للوصول إلى Navigator المهام.
+2. اضغط على أي زر للمهمة لمشاهدة المشروع حياً.
+3. كل مجلد CSS رئيسي يحتوي على ملف `README.md` خاص به يشرح تفاصيل المشروع.
+
+---
+
+## 👨‍💻 About the Developer | عن المطور
+**Mostafa Abd El-naeam**
+*Front-End Engineer (Angular & React)*
 
 <div align="center">
   
@@ -77,7 +93,6 @@
 </div>
 
 ---
-
 <div align="center">
-  Done with ❤️
+  Developed with ❤️ @ NTI Aswan
 </div>
